@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { _ } from 'svelte-i18n';
     import HoglinImg from "$lib/assets/img/hoglin.png";
 
     const links = {
@@ -11,9 +12,8 @@
 <div class="content-wrapper">
     <div class="content">
         <div class="info">
-            <h1>Team Durt</h1>
-            <p>Мы — команда, создающая контент для Майнкрафта. Наша миссия — улучшение игрового опыта для разных
-                категорий игроков, с сохранением ванильной концепции и стилистики игры.</p>
+            <h1>{$_("home.teamdurt")}</h1>
+            <p>{$_("home.about_us")}</p>
             <div class="icons">
                 <a href={links.discord} aria-label="Join our Discord">
                     <svg class="icon discord" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
