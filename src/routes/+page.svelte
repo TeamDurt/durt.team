@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { _ } from 'svelte-i18n';
+    import {_} from 'svelte-i18n';
     import HoglinImg from "$lib/assets/img/hoglin.png";
 
     const links = {
@@ -12,7 +12,7 @@
 <div class="content-wrapper">
     <div class="content">
         <div class="info">
-            <h1>{$_("home.teamdurt")}</h1>
+            <h1>Team Durt</h1>
             <p>{$_("home.about_us")}</p>
             <div class="icons">
                 <a href={links.discord} aria-label="Join our Discord">
@@ -56,7 +56,45 @@
             </div>
         </div>
         <div class="picture">
-            <img src={HoglinImg} alt="Hoglin">
+            <enhanced:img src="$lib/assets/img/hoglin.png" alt="Hoglin" sizes="min(400px; 100%)"/>
+            <svg class="light" viewBox="0 0 286 209" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_f_4786_3173)">
+                    <ellipse cx="102.473" cy="64.8082" rx="102.473" ry="64.8082"
+                             transform="matrix(0.981735 -0.190254 0.330248 0.943894 21 62.9919)" fill="#8D3300"
+                             fill-opacity="0.4"/>
+                </g>
+                <g filter="url(#filter1_f_4786_3173)">
+                    <ellipse cx="62.2668" cy="39.0828" rx="62.2668" ry="39.0828"
+                             transform="matrix(0.981735 -0.190254 0.330248 0.943894 65 87.693)" fill="#FF7A00"/>
+                </g>
+                <defs>
+                    <filter id="filter0_f_4786_3173" x="0.130859" y="0.447083" width="285.748" height="208.442"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_4786_3173"/>
+                    </filter>
+                    <filter id="filter1_f_4786_3173" x="36.5469" y="33.9806" width="204.98" height="157.512"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_4786_3173"/>
+                    </filter>
+                </defs>
+            </svg>
+            <svg class="shadow" viewBox="0 0 528 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_f_4786_3168)">
+                    <ellipse cx="264" cy="96" rx="200" ry="32" fill="#A14F35" fill-opacity="0.2"/>
+                </g>
+                <defs>
+                    <filter id="filter0_f_4786_3168" x="0" y="0" width="528" height="192" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="32" result="effect1_foregroundBlur_4786_3168"/>
+                    </filter>
+                </defs>
+            </svg>
         </div>
         <div class="icons">
             <a href={links.discord} aria-label="Join our Discord">
@@ -113,6 +151,7 @@
     align-items: center;
 
     background-color: #131313;
+    overflow: hidden;
   }
 
   .content, .info {
@@ -194,12 +233,37 @@
   }
 
   .picture {
+    position: relative;
     width: 100%;
     height: fit-content;
 
-    & > img {
+    & img {
+      position: relative;
       width: 100%;
       height: auto;
+      z-index: 1;
+    }
+
+    & > .light {
+      position: absolute;
+      top: 0;
+      right: 11%;
+      transform: translateY(-11%);
+
+      width: 71.5%;
+      height: fit-content;
+      z-index: 0;
+    }
+
+    & > .shadow {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(25%);
+
+      width: 132%;
+      height: fit-content;
+      z-index: 0;
     }
   }
 
