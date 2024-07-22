@@ -15,7 +15,7 @@
             <h1>Team Durt</h1>
             <p>{$_("home.about_us")}</p>
             <div class="icons">
-                <a href={links.discord} aria-label="Join our Discord">
+                <a href={links.discord} target="_blank" aria-label="Join our Discord">
                     <svg class="icon discord" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="48" rx="24" fill="#8287FF"/>
                         <g clip-path="url(#clip0_4765_3133)">
@@ -29,7 +29,7 @@
                         </defs>
                     </svg>
                 </a>
-                <a href={links.modrinth} aria-label="Visit our Modrinth">
+                <a href={links.modrinth} target="_blank" aria-label="Visit our Modrinth">
                     <svg class="icon modrinth" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="48" rx="24" fill="#82DC57"/>
                         <g clip-path="url(#clip0_4765_3131)">
@@ -46,7 +46,7 @@
                         </defs>
                     </svg>
                 </a>
-                <a href={links.curseforge} aria-label="Visit our CurseForge">
+                <a href={links.curseforge} target="_blank" aria-label="Visit our CurseForge">
                     <svg class="icon curseforge" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="48" rx="24" fill="#F6944D"/>
                         <path d="M19.5823 15V16.2475V18.9343H18.8532L18.1241 16.2475H5C11.1975 22.9263 16.3013 23.3485 17.9418 23.3485C19.5823 23.3485 21.4051 23.8091 21.4051 26.0354C21.4051 28.2616 19.0962 28.9461 17.9418 29.0101L16.0278 31.4091V34H20.2203C20.7975 33.3923 22.7175 32.1768 25.7797 32.1768C28.842 32.1768 30.7013 33.3923 31.2481 34H35.2582V31.4091L33.3443 29.0101C31.3392 29.0101 29.243 28.0505 29.243 25.2677C29.243 19.5869 37.081 17.0791 41 16.5354V15H19.5823Z"
@@ -97,7 +97,7 @@
             </svg>
         </div>
         <div class="icons">
-            <a href={links.discord} aria-label="Join our Discord">
+            <a href={links.discord} target="_blank" aria-label="Join our Discord">
                 <svg class="icon discord" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="48" height="48" rx="24" fill="#8287FF"/>
                     <g clip-path="url(#clip0_4765_3133)">
@@ -111,7 +111,7 @@
                     </defs>
                 </svg>
             </a>
-            <a href={links.modrinth} aria-label="Visit our Modrinth">
+            <a href={links.modrinth} target="_blank" aria-label="Visit our Modrinth">
                 <svg class="icon modrinth" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="48" height="48" rx="24" fill="#82DC57"/>
                     <g clip-path="url(#clip0_4765_3131)">
@@ -128,7 +128,7 @@
                     </defs>
                 </svg>
             </a>
-            <a href={links.curseforge} aria-label="Visit our CurseForge">
+            <a href={links.curseforge} target="_blank" aria-label="Visit our CurseForge">
                 <svg class="icon curseforge" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="48" height="48" rx="24" fill="#F6944D"/>
                     <path d="M19.5823 15V16.2475V18.9343H18.8532L18.1241 16.2475H5C11.1975 22.9263 16.3013 23.3485 17.9418 23.3485C19.5823 23.3485 21.4051 23.8091 21.4051 26.0354C21.4051 28.2616 19.0962 28.9461 17.9418 29.0101L16.0278 31.4091V34H20.2203C20.7975 33.3923 22.7175 32.1768 25.7797 32.1768C28.842 32.1768 30.7013 33.3923 31.2481 34H35.2582V31.4091L33.3443 29.0101C31.3392 29.0101 29.243 28.0505 29.243 25.2677C29.243 19.5869 37.081 17.0791 41 16.5354V15H19.5823Z"
