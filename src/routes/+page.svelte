@@ -188,6 +188,7 @@
     display: flex;
     flex-direction: row;
     gap: 16px;
+    z-index: 2;
 
     & > a {
       width: 32px;
@@ -236,6 +237,7 @@
     position: relative;
     width: 100%;
     height: fit-content;
+    z-index: 1;
 
     & img {
       position: relative;
