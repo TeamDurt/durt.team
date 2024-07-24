@@ -23,9 +23,6 @@ FROM install AS prerelease
 COPY --from=install /temp/dev/node_modules node_modules
 COPY . .
 
-ARG PUBLIC_SUPABASE_KEY
-ARG PUBLIC_SUPABASE_URL
-
 # [optional] tests & build
 ENV NODE_ENV=production
 
