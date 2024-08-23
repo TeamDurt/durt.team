@@ -1,11 +1,10 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
-    import HoglinImg from "$lib/assets/img/hoglin.png";
 
     const links = {
-        discord: "https://discord.gg/wChxzcxF4Q",
-        modrinth: "https://modrinth.com/organization/team-durt",
-        curseforge: "https://www.curseforge.com/members/listerrk/projects"
+        discord: "discord",
+        modrinth: "modrinth",
+        curseforge: "curseforge"
     };
 </script>
 
