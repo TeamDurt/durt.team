@@ -1,0 +1,12 @@
+{
+  "name": "Team Durt",
+  "theme_color": "#131313",
+  "background_color": "#131313",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
