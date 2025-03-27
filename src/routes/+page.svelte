@@ -2,9 +2,9 @@
     import {_} from 'svelte-i18n';
 
     const links = {
-        discord: "discord",
-        modrinth: "modrinth",
-        curseforge: "curseforge"
+        discord: "https://discord.durt.team",
+        modrinth: "https://modrinth.durt.team",
+        curseforge: "https://curseforge.durt.team"
     };
 </script>
 
