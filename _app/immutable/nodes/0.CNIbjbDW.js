@@ -1,0 +1,13 @@
+import{_ as i}from"../chunks/DvBAYCO5.js";import{r as s,i as E,a as g,w as h}from"../chunks/0Dl1PMjY.js";import{s as L,g as k,u as w,h as T,j as y}from"../chunks/CrNH1r5a.js";import{S as P,i as D,d as u,o as O,p as b,b as d,a as j,k as p,B as A,c as f,l as I,g as R,h as v,j as $}from"../chunks/NmTYn5eu.js";const V="en";s("en",()=>i(()=>import("../chunks/9O0NHrn8.js"),[],import.meta.url));s("ru",()=>i(()=>import("../chunks/D42W5QiM.js"),[],import.meta.url));s("be",()=>i(()=>import("../chunks/D42W5QiM.js"),[],import.meta.url));s("kk",()=>i(()=>import("../chunks/D42W5QiM.js"),[],import.meta.url));s("uk",()=>i(()=>import("../chunks/wl15ECeM.js"),[],import.meta.url));s("de",()=>i(()=>import("../chunks/V_1Lt1rA.js"),[],import.meta.url));s("fr",()=>i(()=>import("../chunks/BzOxY3Q1.js"),[],import.meta.url));s("it",()=>i(()=>import("../chunks/ErsDM_xl.js"),[],import.meta.url));s("es",()=>i(()=>import("../chunks/BWXgExs2.js"),[],import.meta.url));E({fallbackLocale:V,initialLocale:window.navigator.language});const C=async()=>{g.set(window.navigator.language),await h()},S=!0,W=Object.freeze(Object.defineProperty({__proto__:null,load:C,prerender:S},Symbol.toStringTag,{value:"Module"}));function B(l){let a,r,m=`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.webvisor.org/metrika/tag_ww.js", "ym");
+
+        ym(98146672, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    `,_,o;const c=l[1].default,e=k(c,l,l[0],null);return{c(){a=v("meta"),r=v("script"),r.textContent=m,_=$(),e&&e.c(),this.h()},l(t){const n=A("svelte-a090v0",document.head);a=f(n,"META",{name:!0,content:!0}),r=f(n,"SCRIPT",{type:!0,"data-svelte-h":!0}),I(r)!=="svelte-swrn7b"&&(r.textContent=m),n.forEach(u),_=R(t),e&&e.l(t),this.h()},h(){document.title="Team Durt",p(a,"name","description"),p(a,"content","We are a team of content creators for Minecraft."),p(r,"type","text/javascript")},m(t,n){d(document.head,a),d(document.head,r),j(t,_,n),e&&e.m(t,n),o=!0},p(t,[n]){e&&e.p&&(!o||n&1)&&w(e,c,t,t[0],o?y(c,t[0],n,null):T(t[0]),null)},i(t){o||(b(e,t),o=!0)},o(t){O(e,t),o=!1},d(t){t&&u(_),u(a),u(r),e&&e.d(t)}}}function M(l,a,r){let{$$slots:m={},$$scope:_}=a;return l.$$set=o=>{"$$scope"in o&&r(0,_=o.$$scope)},[_,m]}class F extends P{constructor(a){super(),D(this,a,M,B,L,{})}}export{F as component,W as universal};

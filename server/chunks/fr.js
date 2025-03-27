@@ -1,6 +1,0 @@
-const fr = {
-  "home.about_us": "Nous sommes une équipe de créateurs de contenu pour Minecraft. Notre objectif est d'améliorer l'expérience de jeu pour différents types de joueurs tout en préservant le concept et le style vanilla du jeu."
-};
-export {
-  fr as default
-};
